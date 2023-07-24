@@ -1,0 +1,26 @@
+.home{
+   width: 100%;
+   height: auto;
+   margin: auto;
+  display: flex;
+}
+.homecontener{
+    width: 1264px;
+    margin:0px 0px 0px 0px ;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .home{
+    width: 100%;
+    height: auto;
+    margin: auto;
+   display: flex;
+ }
+ .homecontener{
+     width: 1264px;
+     margin:0px 0px 0px 15px ;
+ }
+}

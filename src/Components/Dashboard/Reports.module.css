@@ -1,0 +1,413 @@
+ /* For desktop: */
+ .repob {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgba(166, 166, 166, 0.395);
+    display: grid;
+    grid-template-areas:
+    
+    "b1 b1 b4 b4"
+    "b2 b2 b2 b2"
+    "b3 b3 b3 b3"
+    ;
+  }
+  .b1 {
+    grid-area: b1;
+    align-self: stretch;
+    height: 100%;
+    background-color: #ffffff;
+    width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 20px;
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    text-align: left;
+    font-size: 14px;
+    color: #1c4980;
+    font-family: Inter;
+    border-right: 1px solid rgba(166, 166, 166, 0.395);
+    border-bottom: 1px solid rgba(166, 166, 166, 0.395); 
+    border-radius: 5px;
+  }
+  .totalAssessment {
+    position: relative;
+    line-height: 140%;
+    font-weight: 600;
+    }
+    .frameChild {
+    position: relative;
+    border-radius: 8px;
+    width: 20px;
+    height: 20px;
+    background-color: #ba6ef050;
+    color: #ba6ef0;
+    padding: 5px;
+    flex-shrink: 0;
+    }
+    .b {
+    position: relative;
+    line-height: 140%;
+    }
+    .frameParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    font-size: 20px;
+    }
+  .b2 {
+    grid-area: b2;
+    align-self: stretch;
+    height: 100%;
+    flex: 1;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 20px;
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    text-align: left;
+    font-size: 14px;
+    color: #1c4980;
+    font-family: Inter;
+    border-right: 1px solid rgba(166, 166, 166, 0.395);
+   
+    border-radius: 5px;
+    border-bottom: 1px solid rgba(166, 166, 166, 0.395); 
+  }
+  .candidates {
+    position: relative;
+    line-height: 140%;
+    font-weight: 600;
+    }
+ 
+  
+    .div {
+    position: relative;
+    font-size: 12px;
+    line-height: 140%;
+    font-weight: 500;
+    color: #05c165;
+    }
+    .parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px;
+    }
+    .totalCandidate {
+    position: relative;
+    font-size: 12px;
+    line-height: 140%;
+    font-weight: 500;
+    }
+    .frameGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1px;
+    }
+    .frameItem {
+    position: relative;
+    width: 1px;
+    height: 40px;
+    }
+    .frameParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    font-size: 20px;
+    }
+  .b3 {
+    grid-area: b3;
+    background-color: #b8f06e;
+    align-self: stretch;
+    height: 100%;
+    background-color: #ffffff;
+    width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 20px;
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    text-align: left;
+    font-size: 14px;
+    color: #1c4980;
+    font-family: Inter;
+    border-right: 1px solid rgba(166, 166, 166, 0.395);
+    border-bottom: 1px solid rgba(166, 166, 166, 0.395); 
+    border-radius: 5px;
+  }
+  .b4 {
+    grid-area: b4;
+    align-self: stretch;
+    height: 100%;
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 50px 16px 20px;
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    text-align: left;
+    font-size: 14px;
+    color: #1c4980;
+    font-family: Inter;
+    border-right: 1px solid rgba(166, 166, 166, 0.395);
+    border-bottom: 1px solid rgba(166, 166, 166, 0.395); 
+    border-radius: 5px;
+  }
+  .totalPurpose4 {
+    position: relative;
+    line-height: 140%;
+    font-weight: 600;
+    }
+    .frameChild4 {
+    position: relative;
+    border-radius: 8px;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background-color: #1c498075;
+    color: #1c4980;
+    padding: 5px;
+    }
+    .b44 {
+    position: relative;
+    line-height: 140%;
+    }
+    .frameParent4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    font-size: 20px;
+    }
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .repob {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgba(166, 166, 166, 0.395);
+    display: grid;
+    grid-template-areas: "b1 b1 b2 b2 b3 b3 b3 b3 b4";
+  }
+  .b1 {
+    grid-area: b1;
+    align-self: stretch;
+    height: 100%;
+    background-color: #ffffff;
+    width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 20px;
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    text-align: left;
+    font-size: 14px;
+    color: #1c4980;
+    font-family: Inter;
+    border-radius: 5px;
+  }
+  .totalAssessment {
+    position: relative;
+    line-height: 140%;
+    font-weight: 600;
+    }
+    .frameChild {
+    position: relative;
+    border-radius: 8px;
+    width: 20px;
+    height: 20px;
+    background-color: #ba6ef050;
+    color: #ba6ef0;
+    padding: 5px;
+    flex-shrink: 0;
+    }
+    .b {
+    position: relative;
+    line-height: 140%;
+    }
+    .frameParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    font-size: 20px;
+    }
+  .b2 {
+    grid-area: b2;
+    align-self: stretch;
+    height: 100%;
+    flex: 1;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 20px;
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    text-align: left;
+    font-size: 14px;
+    color: #1c4980;
+    font-family: Inter;
+    border-radius: 5px;
+  }
+  .candidates {
+    position: relative;
+    line-height: 140%;
+    font-weight: 600;
+    }
+ 
+  
+    .div {
+    position: relative;
+    font-size: 12px;
+    line-height: 140%;
+    font-weight: 500;
+    color: #05c165;
+    }
+    .parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px;
+    }
+    .totalCandidate {
+    position: relative;
+    font-size: 12px;
+    line-height: 140%;
+    font-weight: 500;
+    }
+    .frameGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1px;
+    }
+    .frameItem {
+    position: relative;
+    width: 1px;
+    height: 40px;
+    }
+    .frameParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    font-size: 20px;
+    }
+  .b3 {
+    grid-area: b3;
+    background-color: #b8f06e;
+    align-self: stretch;
+    height: 100%;
+    background-color: #ffffff;
+    width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 20px;
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    text-align: left;
+    font-size: 14px;
+    color: #1c4980;
+    font-family: Inter;
+    border-radius: 5px;
+  }
+  .b4 {
+    grid-area: b4;
+    align-self: stretch;
+    height: 100%;
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 50px 16px 20px;
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    text-align: left;
+    font-size: 14px;
+    color: #1c4980;
+    font-family: Inter;
+    border-radius: 5px;
+  }
+  .totalPurpose4 {
+    position: relative;
+    line-height: 140%;
+    font-weight: 600;
+    }
+    .frameChild4 {
+    position: relative;
+    border-radius: 8px;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background-color: #1c498075;
+    color: #1c4980;
+    padding: 5px;
+    }
+    .b44 {
+    position: relative;
+    line-height: 140%;
+    }
+    .frameParent4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    font-size: 20px;
+    }
+}

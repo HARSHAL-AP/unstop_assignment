@@ -1,0 +1,258 @@
+.modalbody {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.574);
+  z-index: 1111;
+}
+.modal {
+  width: 100%;
+ 
+  background-color: #fff;
+  border-radius: 5px;
+  position: fixed;
+  bottom: 0vh;
+}
+.createNewAssessment1 {
+  position: relative;
+  font-weight: 600;
+}
+.cutIcon1 {
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+.createNewAssessmentParent {
+  width: 100%;
+  position: relative;
+  border-radius: 8px 8px 0px 0px;
+  background-color: #fff;
+  border: 1px solid #dadce0;
+  box-sizing: border-box;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 18px;
+  color: #1c4980;
+  font-family: Inter;
+}
+.frameParent {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #dadce0;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px 30px 30px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  text-align: center;
+  font-size: 16px;
+  color: #1c4980;
+  font-family: Inter;
+  padding-bottom: 50px;
+}
+.inpuparant{
+    width: 95%;
+    height: 60px;
+    margin: auto;
+  }
+  .inpuparant>p{
+   text-align: left;
+   font-size: 16px;
+   color: #1c4980;
+  }
+  .inpuparant>input{
+   width: 100%;
+   height: 30px;
+   border: 1px solid #dadce0;
+   border-radius: 5px;
+   padding-left: 10px;
+   font-size: 14px;
+   }
+   .inpuparant>select{
+    width: 100%;
+    height: 30px;
+    border: 1px solid #dadce0;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 14px;
+    }
+    .skilconteer{
+        width: 100%;
+        height: auto;
+    }
+    .savebuton{
+        width: 100%;
+        height: 60px;
+        display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+    .savebuton>div{
+     width: 90%;
+     height: 35px;
+     background-color: #0073e6;
+     color: #fff;
+     border: 0;
+     border-radius: 5px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    }
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .modalbody {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.574);
+    z-index: 1111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .modal {
+    width: 550px;
+    
+    background-color: #fff;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 10vh;
+    -webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+  @-webkit-keyframes slide-in-bottom {
+    0% {
+      -webkit-transform: translateY(1000px);
+              transform: translateY(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-bottom {
+    0% {
+      -webkit-transform: translateY(1000px);
+              transform: translateY(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  .createNewAssessment1 {
+    position: relative;
+    font-weight: 600;
+  }
+  .cutIcon1 {
+    position: relative;
+    width: 30px;
+    height: 30px;
+  }
+  .createNewAssessmentParent {
+    width: 100%;
+    position: relative;
+    border-radius: 8px 8px 0px 0px;
+    background-color: #fff;
+    border: 1px solid #dadce0;
+    box-sizing: border-box;
+    height: 40px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 18px;
+    color: #1c4980;
+    font-family: Inter;
+  }
+  .frameParent {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #dadce0;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 20px ;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #1c4980;
+    font-family: Inter;
+    padding-bottom: 50px;
+  }
+  .inpuparant{
+    width: 95%;
+    height: 60px;
+    margin: auto;
+  }
+  .inpuparant>p{
+   text-align: left;
+   font-size: 16px;
+   color: #1c4980;
+  }
+  .inpuparant>input{
+   width: 100%;
+   height: 30px;
+   border: 1px solid #dadce0;
+   border-radius: 5px;
+   padding-left: 10px;
+   font-size: 14px;
+   }
+   .inpuparant>select{
+    width: 100%;
+    height: 30px;
+    border: 1px solid #dadce0;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 14px;
+    }
+    .skilconteer{
+        width: 100%;
+        height: auto;
+    }
+    .savebuton{
+        width: 100%;
+        height: 60px;
+        display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+    .savebuton>div{
+     width: 90%;
+     height: 35px;
+     background-color: #0073e6;
+     color: #fff;
+     border: 0;
+     border-radius: 5px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    }
+}

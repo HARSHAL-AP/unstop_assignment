@@ -1,0 +1,39 @@
+.addbox{
+    width: 100%;
+    height: 100%;
+    border: 1px dotted #85a9f3;
+    background-color:  #ddedff;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.adicon{
+    height: 30px;
+    width: 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:25px;
+    background-color: #FFF;
+    padding:10px ;
+    color: #0073E6;
+    margin-top: 40px;
+}
+.adahead{
+    font-size: 18px;
+font-weight: 500;
+font-family: Inter;
+color: #1c4980;
+text-align: center;
+}
+.adadesc{
+width: 100%;
+position: relative;
+font-size: 12px;
+font-weight: 500;
+font-family: Inter;
+color: #1c4980;
+text-align: center;
+display: inline-block;
+}

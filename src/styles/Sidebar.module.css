@@ -1,0 +1,229 @@
+.frameParent {
+ display: none;
+   
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+  .dashboardIcon1 {
+  	position: relative;
+  	width: 20px;
+  	height: 20px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	z-index: 0;
+}
+.dashboard {
+  	position: relative;
+  	line-height: 140%;
+  	font-weight: 500;
+  	z-index: 1;
+}
+.frameChild {
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 5px;
+  	right: 5px;
+  	border-radius: 10px;
+  	background-color: #d63500;
+  	width: 7px;
+  	height: 7px;
+  	opacity: 0;
+  	z-index: 2;
+}
+.dashboardParent {
+  	border-radius: 8px;
+  	background-color: #fff;
+  	width: 90px;
+  	height: 70px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	padding: 10px 20px;
+  	box-sizing: border-box;
+  	align-items: center;
+  	justify-content: center;
+  	position: relative;
+  	gap: 6px;
+}
+.noteAltIcon1 {
+  	position: relative;
+  	width: 20px;
+  	height: 20px;
+  	z-index: 0;
+}
+.noteAltParent {
+  	border-radius: 8px;
+  	background-color: #e5f1fc;
+  	border: 1px solid #0073e6;
+  	box-sizing: border-box;
+  	width: 90px;
+  	height: 70px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	padding: 10px 20px;
+  	align-items: center;
+  	justify-content: center;
+  	position: relative;
+  	gap: 6px;
+  	color: #0073e6;
+}
+.quizIcon1 {
+  	position: relative;
+  	width: 20px;
+  	height: 20px;
+}
+.myLibrary {
+  	position: relative;
+  	line-height: 140%;
+  	font-weight: 500;
+}
+.quizParent {
+  	border-radius: 8px;
+  	background-color: #fff;
+  	width: 90px;
+  	height: 70px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	padding: 10px 20px;
+  	box-sizing: border-box;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 6px;
+}
+.frameInner {
+  	border-radius: 8px;
+  	background-color: #fff;
+  	width: 90px;
+  	height: 70px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.billAndPlanLine1 {
+  	position: relative;
+  	width: 20px;
+  	height: 20px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.billAndPlanLineWrapper {
+  	border-radius: 8px;
+  	background-color: #fff;
+  	width: 90px;
+  	height: 70px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	padding: 10px 20px;
+  	box-sizing: border-box;
+  	align-items: center;
+  	justify-content: center;
+}
+.frameDiv {
+  	height: 225px;
+  	display: flex;
+  	flex-direction: column;
+  	padding: 0px 0px 10px;
+  	box-sizing: border-box;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 2px;
+}
+.vectorIcon {
+  	align-self: stretch;
+  	position: relative;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 1px;
+  	flex-shrink: 0;
+}
+.admin {
+  	position: relative;
+  	font-weight: 500;
+}
+.adminWrapper {
+  	border-radius: 22px;
+  	background-color: #fbebea;
+  	border: 1px solid #d63500;
+  	box-sizing: border-box;
+  	height: 18px;
+  	display: flex;
+  	flex-direction: row;
+  	padding: 6px 8px;
+  	align-items: center;
+  	justify-content: flex-start;
+}
+.round {
+  	margin: 0;
+}
+.adminMedsParent {
+  	border-radius: 8px;
+  	background-color: #fff;
+  	width: 90px;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	padding: 10px 20px;
+  	box-sizing: border-box;
+  	align-items: center;
+  	justify-content: center;
+  	gap: 6px;
+  	text-align: center;
+  	font-size: 12px;
+  	color: #1c4980;
+}
+.frameParent1 {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 6px;
+}
+.vectorParent {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 16px;
+  	font-size: 10px;
+  	color: #d63500;
+}
+.frameGroup {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 16px;
+}
+.frameParent {
+  	position: relative;
+  	background-color: #fff;
+  	width: 140px;
+  	height: 992px;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: row;
+  	padding: 16px 20px 20px 30px;
+  	box-sizing: border-box;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	text-align: left;
+  	font-size: 12px;
+  	color: #1c4980;
+  	font-family: Inter;
+}
+
+
+
+
+
+}

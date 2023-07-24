@@ -1,0 +1,323 @@
+.navbar {
+  height: 80px;
+  width: 100%;
+  background-color: #ffff;
+}
+.g1 {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.openhandler {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  margin-left: 20px;
+  background-color: #c4e2ff;
+}
+
+.pageheding {
+
+  height: 28px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pageheding > h1 {
+  color: #1c4980;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+ 
+}
+.pagesubheding {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+.pagesubheding >div {
+  color: #0073e6;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  
+}
+.mobilnav{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1111;
+    background-color: #1c49802d;
+    
+}
+.closemodal{
+  width: 90%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #FFF;
+    animation: slideOut 0.5s forwards;
+}
+.monavcon{
+ width: 90%;
+ height: 100%;
+ position: fixed;
+ top: 0;
+ left: 0;
+ 
+ animation: slideIn 0.5s forwards;
+ background-color: #f2f8fe;
+
+ overflow: hidden;
+ display: flex;
+ flex-direction: column;
+ padding: 40px 20px 10px;
+ box-sizing: border-box;
+ align-items: flex-start;
+ justify-content: flex-start;
+ gap: 10px;
+ text-align: left;
+ font-size: 14px;
+ color: #1c4980;
+ font-family: Inter;
+}
+@keyframes slideIn {
+    from {
+      left: -100%;
+    }
+    to {
+      left: 0;
+    }
+  }
+  @keyframes slideOut {
+    from {
+      left: 0;
+    }
+    to {
+      left: -100%;
+    }
+  }
+
+.menu {
+  position: relative;
+  line-height: 140%;
+  font-weight: 500;
+  }
+  .cutIcon1 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  }
+  .menuParent {
+  align-self: stretch;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  }
+  .dashboardIcon1 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  }
+  .dashboardParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  }
+  .frameWrapper {
+  align-self: stretch;
+  border-radius: 8px;
+  background-color: #f2f8fe;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  }
+  .noteAltIcon1 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  }
+  .assessment {
+  position: relative;
+  line-height: 140%;
+  font-weight: 600;
+  }
+  .noteAltParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  z-index: 0;
+  }
+  .frameChild {
+  position: absolute;
+  margin: 0 !important;
+  top: 5px;
+  left: 230px;
+  border-radius: 10px;
+  background-color: #d63500;
+  width: 7px;
+  height: 7px;
+  opacity: 0;
+  z-index: 1;
+  }
+  .frameDiv {
+  align-self: stretch;
+  border-radius: 8px;
+  background-color: #e5f1fc;
+  border: 1px solid #0073e6;
+  box-sizing: border-box;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  gap: 10px;
+  color: #0073e6;
+  }
+  .frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 6px;
+  }
+  .frameItem {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 1px;
+  flex-shrink: 0;
+  }
+  .admin {
+  position: relative;
+  font-weight: 500;
+  }
+  .adminWrapper {
+  border-radius: 22px;
+  background-color: #fbebea;
+  border: 1px solid #d63500;
+  box-sizing: border-box;
+  height: 18px;
+  display: flex;
+  flex-direction: row;
+  padding: 6px 8px;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 10px;
+  color: #d63500;
+  }
+  .frameParent1 {
+  align-self: stretch;
+  border-radius: 8px;
+  background-color: #f2f8fe;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  }
+  .frameWrapper2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  }
+
+  
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .navbar {
+    height: 71px;
+    max-width: 1264px;
+    margin: auto;
+    background-color: #ffff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+  }
+  .g1 {
+    width: 15%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+  }
+  .openhandler {
+    width: 30px;
+    height: 30px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin-left: 20px;
+    background-color: #c4e2ff;
+  }
+  
+  .pageheding {
+  
+    height: 28px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .pageheding > h1 {
+    color: #1c4980;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+   
+  }
+  .pagesubheding {
+    width: 30%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  
+  }
+  .pagesubheding >div {
+    color: #0073e6;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    
+  }
+}
