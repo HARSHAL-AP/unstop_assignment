@@ -196,6 +196,7 @@
   	gap: 16px;
   	font-size: 10px;
   	color: #d63500;
+	border-top: 2px dotted #9cc2e9;
 }
 .frameGroup {
   	display: flex;

@@ -127,7 +127,6 @@
   }
   .modal {
     width: 550px;
-    
     background-color: #fff;
     border-radius: 5px;
     position: fixed;
@@ -190,11 +189,12 @@
   }
   .frameParent {
     width: 100%;
+    
     position: relative;
     background-color: #fff;
     border: 1px solid #dadce0;
     box-sizing: border-box;
-    overflow: hidden;
+    overflow:hidden;
     display: flex;
     flex-direction: column;
     padding: 20px ;
@@ -205,13 +205,12 @@
     font-size: 16px;
     color: #1c4980;
     font-family: Inter;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
   }
   .inpuparant{
     width: 95%;
-    height: 60px;
     margin: auto;
-  }
+}
   .inpuparant>p{
    text-align: left;
    font-size: 16px;
@@ -235,7 +234,7 @@
     }
     .skilconteer{
         width: 100%;
-        height: auto;
+       
     }
     .savebuton{
         width: 100%;

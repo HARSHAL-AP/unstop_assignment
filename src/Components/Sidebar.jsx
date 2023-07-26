@@ -22,8 +22,8 @@ const Sidebar = () => {
   <div className={styles.frameChild} />
   </div>
   <div className={styles.quizParent}>
-   <MdOutlineLibraryBooks className={styles.quizIcon1}  />
-  <div className={styles.myLibrary}>My Library</div>
+   <MdOutlineLibraryBooks className={styles.noteAltIcon1}  />
+  <div className={styles.myLibrary}>MyLibrary</div>
   </div>
   <div className={styles.frameInner} />
   <div className={styles.frameInner} />
@@ -33,7 +33,7 @@ const Sidebar = () => {
   </div>
   </div>
   <div className={styles.vectorParent}>
-  <img className={styles.vectorIcon} alt="" src="Vector 267.svg" />
+  
   <div className={styles.frameParent1}>
   <div className={styles.adminWrapper}>
   <div className={styles.admin}>Admin</div>

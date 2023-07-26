@@ -26,7 +26,7 @@ const Navbar = () => {
         </div>
 
         <div className={Styles.pagesubheding}>
-          <div>My Assessments</div>
+          <div className={Styles.navlinkss}>My Assessments</div>
           <div>Unstop Assessments</div>
         </div>
       </div>

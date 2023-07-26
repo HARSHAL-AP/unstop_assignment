@@ -23,12 +23,16 @@ const Modal = ({isopen}) => {
             <p>Purpose of the test is</p>
             <select placeholder="Type Here">
               <option value="">Select</option>
+              <option value="">Job</option>
+              <option value="">Practice</option>
             </select>
           </div>
           <div className={styles.inpuparant}>
             <p>Description</p>
             <select placeholder="Type Here">
               <option value="">Select</option>
+              <option value="">Multiple Choise Question </option>
+              <option value="">Descriptive Question </option>
             </select>
           </div>
           <div className={styles.inpuparant}>

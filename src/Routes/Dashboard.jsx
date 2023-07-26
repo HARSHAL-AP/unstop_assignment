@@ -15,8 +15,12 @@ const Dashboard = () => {
     <div className={Styles.dashboard}>
      <div className={Styles.assessmentsOverviewParent}>
       
-      { isopen&&"Assessment Overview"}
-     { isopen&&<Reports/>}
+     { isopen&& <h1>Assessment Overview</h1>}
+     {isopen&&<div className={isopen? Styles.animein:Styles.animeout}>
+     <Reports/>
+     </div>}
+     
+    
      </div>
      <div>
      <div className={Styles.assecomp}>
